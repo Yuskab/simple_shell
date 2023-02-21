@@ -18,10 +18,10 @@
 #define BUF_FLUSH -1
 
 /* for command chaining */
-#define CMD_NORM	0
+#define CMD_NORM     0
 #define CMD_OR		1
 #define CMD_AND		2
-#define CMD_CHAIN	3
+#define CMD_CHAIN    3
 
 /* for convert_number() */
 #define CONVERT_LOWERCASE	1
@@ -97,7 +97,7 @@ typedef struct passinfo
 
 #define INFO_INIT \
 {NULL, NULL, NULL, 0, 0, 0, 0, NULL, NULL, NULL, NULL, NULL, 0, 0, NULL, \
-			0, 0, 0}
+	     0, 0, 0}
 
 /**
  * struct builtin - contains a builtin string and related function
